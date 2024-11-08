@@ -1,0 +1,131 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+  
+header {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+#logo {
+    text-align: center;
+}
+  
+  
+nav ul {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: -15px;
+    margin-left: -30px;
+}
+  
+a {
+    font-size: large;
+    color: navy;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+}
+  
+.logoimg {
+    border: none;
+    border-radius: 3cm;
+    margin-top: 30px;
+}
+  
+.main {
+    color: navy;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    height: 250px;
+} 
+  
+.main h1,p {
+    margin-top: 35px;
+}
+  
+.main h1 {
+    font-weight: 600;
+}
+
+.img1 {
+    transition: width 2s, height 2s;
+    border: none;
+    border-radius: 1em;
+  }
+  
+  .img1:hover{
+    width: 300px;
+    height: 300px;
+  }
+
+.collections {
+    font-family: 'Cormorant Garamond', serif;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 30px;
+}
+  
+.collections h1 {
+    color: navy;
+    grid-column: 2;
+    text-align: center;
+}
+  
+  
+.coll_1 {
+    color: navy;
+    text-align: center;
+    grid-row: 2;
+}
+  
+.coll_2 {
+    color: navy;
+    text-align: center;
+    grid-row: 3;
+}
+
+.content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.content p {
+    margin-top: 10px;
+}
+
+.img1 {
+    border:none;
+    border-radius: 1em;
+}
+  
+.contact {
+    background-color: #b3a9f0 ;
+    text-align: center;
+    height: 250px;
+    color: black;
+    place-content: center;
+}
+  
+.contact h2 {
+    text-align: center;
+    color: black;
+}
+  
+.button {
+    background-color: beige;
+    color: black;
+    font-size: small;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 150px;
+    height: 25px;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+}
+  
